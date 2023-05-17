@@ -10,7 +10,8 @@ const Header = ({
     <header>
         <h1> Expenses Planner</h1>
         {isValidPresupuesto ? (
-          <ControlPresupuesto />
+          <ControlPresupuesto 
+          presupuesto={presupuesto}/>
         ):(
             
                 <NuevoPresupuesto
